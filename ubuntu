@@ -34,4 +34,4 @@ echo "Installing ImageMagick, good for cropping and re-sizing images ..."
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/adamkirkwood/laptop/master/ruby)

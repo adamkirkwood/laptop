@@ -39,4 +39,4 @@ echo "Installing RVM (Ruby Version Manager) ..."
 [[ -s '/Users/`whoami`/.rvm/scripts/rvm' ]] && source '/Users/`whoami`/.rvm/scripts/rvm'" >> ~/.zshrc
   source ~/.zshrc
 
-bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/ruby)
+bash < <(curl -s https://raw.github.com/adamkirkwood/laptop/master/ruby)
