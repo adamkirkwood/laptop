@@ -13,6 +13,9 @@ echo "Installing Homebrew, a good OS X package manager ..."
 
 echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
+  
+echo "Installing MySQL, an alternative open source relational database ..."
+  brew install mysql
 
 echo "Installing Redis, a good key-value database ..."
   brew install redis
@@ -25,6 +28,9 @@ echo "Installing tmux, a good way to save project state and switch between proje
 
 echo "Installing ImageMagick, good for cropping and re-sizing images ..."
   brew install imagemagick
+  
+echo "Installing MongoDB, a good document-oriented datastore ..."
+  brew install mongodb 
 
 echo "Installing RVM (Ruby Version Manager) ..."
   curl -s https://rvm.beginrescueend.com/install/rvm -o rvm-installer ; chmod +x rvm-installer ; ./rvm-installer --version latest

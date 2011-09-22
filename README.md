@@ -32,6 +32,8 @@ What it sets up
 * Ack (for finding things in files)
 * Tmux (for saving project state and switching between projects)
 * Postgres (for storing relational data)
+* MySQL (for storing relational data)
+* MongoDB (for storing document-oriented data)
 * Redis (for storing key-value data)
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
