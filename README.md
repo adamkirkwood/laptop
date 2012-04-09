@@ -1,47 +1,43 @@
 Laptop
 ======
 
-Laptop is a set of scripts to get your laptop set up as a development machine.
+Laptop is a script to set up your Max OS X laptop as a Rails development machine.
 
-Mac OS X
---------
+Install
+-------
 
-First, install [GCC for OS X](https://github.com/kennethreitz/osx-gcc-installer). (requires OS X 10.6 or higher)
+Before you run this script, you need compilers like GCC, LLVM, and Clang.
 
-Then, run this one-liner:
+Get them via [OS X GCC Installer](https://github.com/kennethreitz/osx-gcc-installer/)
+if you're on Snow Leopard (OS X 10.6) or
+[Command Line Tools for XCode](https://developer.apple.com/downloads/index.action)
+if you're on Lion (OS X 10.7).
 
-    bash < <(curl -s https://raw.github.com/adamkirkwood/laptop/master/mac)
+Run the script:
 
-Ubuntu
-------
-
-First, install [Ubuntu](http://www.ubuntu.com/download).
-
-Then, run this one-liner:
-
-    bash < <(curl -s https://raw.github.com/adamkirkwood/laptop/master/ubuntu)
-
-If you're setting up Ubuntu for one of our workshops, we recommend you also install gEdit for your text editor.
-You can [customize it with these instructions](http://blog.sudobits.com/2011/04/02/textmate-for-ubuntu-linux/).
+    bash < <(curl -s https://raw.github.com/thoughtbot/laptop/master/mac)
 
 What it sets up
 ---------------
 
-* SSH public keys (for authenticating with services like Github and Heroku)
-* Homebrew or apt-get (for managing operating system libraries)
+* SSH public key (for authenticating with services like Github and Heroku)
+* Homebrew (for managing operating system libraries)
+* Qt (used by Capybara Webkit for headless JavaScript testing)
 * Ack (for finding things in files)
 * Tmux (for saving project state and switching between projects)
 * Postgres (for storing relational data)
-* MySQL (for storing relational data)
-* MongoDB (for storing document-oriented data)
 * Redis (for storing key-value data)
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
-* Ruby 1.9.2 stable (for writing general-purpose code)
+* Ruby language (for writing general-purpose code)
 * Bundler gem (for managing Ruby libraries)
 * Rails gem (for writing web applications)
 * Heroku gem (for interacting with the Heroku API)
 * Taps gem (for pushing and pulling SQL databases between environments)
 * Postgres gem (for making Ruby talk to SQL databases)
+* Foreman gem (for serving your Rails app locally)
+* Git Remote Branch gem (for faster git branch creation and deletion)
+* Heroku accounts plugin (for using multiple Heroku accounts like a client's account)
+* Heroku config plugin (for pulling config variables locally to be used as ENV variables)
 
 It should take about 30 minutes for everything to install, depending on your machine.
